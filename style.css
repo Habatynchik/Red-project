@@ -1,5 +1,12 @@
-.header{
-    height: 150px;
-    width: 150px;
-    background-color: var(--bg-color);
-}
+.header {
+    height: 100px;
+    width: 100%;
+    background: 
+    linear-gradient(to right, var(--bg-color) 70%, transparent 70%) right,
+    var(--addtional-bg-color);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    color: var(--text-color);
+ }
