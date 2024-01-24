@@ -1,7 +1,9 @@
 :root {
-  --bg-color: #1700a9;
-  --addtional-bg-color: #910091;
-  --text-color: #ffffff;
-  --spin-cell-color: #ffee00;
-  --spin-button-color: #ff0000;
-}
+
+    --bg-color: #15009a;
+    --addtional-bg-color: #10007a79;
+    --text-color: #ffffff;
+    --spin-cell-color: #ffee00;
+    --spin-button-color: #1b1c58;
+    --dark-bg-color:  #141662;
+  }
