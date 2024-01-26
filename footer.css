@@ -17,6 +17,9 @@
     border: 5px rgb(43, 43, 145) solid;
     width: 100%;
     font-size: x-large;
+
+    position: absolute;
+    bottom: 0;
 }
 .footer{
     display: flex;
