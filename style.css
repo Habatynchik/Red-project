@@ -10,6 +10,7 @@ body {
 
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .header {
@@ -22,6 +23,7 @@ body {
     justify-content: space-around;
     align-items: start;
     color: var(--text-color);
+    margin: 0 auto;
 }
 
 #main {
@@ -38,8 +40,4 @@ body {
     justify-content: flex-start;
     background-color: var(--bg-color);
     color: var(--text-color);
-}
-
-.footer {
-    width: 100%;
 }
