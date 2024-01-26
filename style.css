@@ -1,3 +1,9 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -9,14 +15,29 @@ body {
 
 .header {
     height: 100px;
-    width: 1024px;
-    background: linear-gradient(to right, var(--bg-color) 70%, transparent 70%) right,
-    var(--addtional-bg-color);
+    width: 100;
+    background: linear-gradient(to right, var(--header-color) 70%, transparent 70%) right, var(--addtional-bg-color);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
     color: var(--text-color);
     margin: 0 auto;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
